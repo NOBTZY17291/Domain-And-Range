@@ -1,4 +1,5 @@
 <script>
+  window.alert("Open on browser");
 // Improved Browser Detection Script
 function checkBrowser() {
   const userAgent = navigator.userAgent;
