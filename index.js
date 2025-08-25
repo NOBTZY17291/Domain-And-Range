@@ -1,1 +1,30 @@
-const _0x463bc2=_0x46cf;function _0x568e(){const _0x19a2ef=['2472496gklJoT','content','meta[name=\x22viewport\x22]','viewport','525427lgaqVY','Desktop\x20mode\x20enforced\x20on\x20mobile\x20device','setAttribute','readyState','2163MZTAKD','loading','please\x20open\x20in\x20browser\x20for\x20better\x20quality','body','appendChild','4YLEwAW','12322896mbiiNE','669867rOpUoK','getElementsByTagName','userAgent','width=1200,\x20initial-scale=1','name','log','test','446532myCPGX','27rwgPdv','130clpRwv','197765IqkpcS','style','744UGFqIL','meta','head','querySelector','addEventListener','4spmdcX','createElement','1000px'];_0x568e=function(){return _0x19a2ef;};return _0x568e();}(function(_0x337eae,_0x25a8e1){const _0x5aaeb0=_0x46cf,_0x525bca=_0x337eae();while(!![]){try{const _0x43bffc=parseInt(_0x5aaeb0(0xc0))/0x1*(parseInt(_0x5aaeb0(0xdc))/0x2)+parseInt(_0x5aaeb0(0xd2))/0x3*(parseInt(_0x5aaeb0(0xc9))/0x4)+parseInt(_0x5aaeb0(0xd5))/0x5+parseInt(_0x5aaeb0(0xd7))/0x6*(parseInt(_0x5aaeb0(0xc4))/0x7)+parseInt(_0x5aaeb0(0xdf))/0x8*(-parseInt(_0x5aaeb0(0xd3))/0x9)+parseInt(_0x5aaeb0(0xd4))/0xa*(-parseInt(_0x5aaeb0(0xcb))/0xb)+parseInt(_0x5aaeb0(0xca))/0xc;if(_0x43bffc===_0x25a8e1)break;else _0x525bca['push'](_0x525bca['shift']());}catch(_0x250a02){_0x525bca['push'](_0x525bca['shift']());}}}(_0x568e,0x8ef9c),window['alert'](_0x463bc2(0xc6)));function enforceDesktopSite(){const _0x573917=_0x463bc2,_0x55843e=document[_0x573917(0xda)](_0x573917(0xbe));if(_0x55843e)_0x55843e[_0x573917(0xc2)](_0x573917(0xbd),_0x573917(0xce));else{const _0x1ad64b=document[_0x573917(0xdd)](_0x573917(0xd8));_0x1ad64b[_0x573917(0xcf)]=_0x573917(0xbf),_0x1ad64b[_0x573917(0xbd)]=_0x573917(0xce),document[_0x573917(0xcc)](_0x573917(0xd9))[0x0][_0x573917(0xc8)](_0x1ad64b);}document[_0x573917(0xc7)][_0x573917(0xd6)]['minWidth']=_0x573917(0xde);const _0xd5f942=/iPhone|iPad|iPod|Android/i[_0x573917(0xd1)](navigator[_0x573917(0xcd)]);_0xd5f942&&console[_0x573917(0xd0)](_0x573917(0xc1));}function _0x46cf(_0x5cdd44,_0x593d5f){const _0x568e72=_0x568e();return _0x46cf=function(_0x46cff1,_0x57de7e){_0x46cff1=_0x46cff1-0xbd;let _0x5bcfd5=_0x568e72[_0x46cff1];return _0x5bcfd5;},_0x46cf(_0x5cdd44,_0x593d5f);}document[_0x463bc2(0xc3)]===_0x463bc2(0xc5)?document[_0x463bc2(0xdb)]('DOMContentLoaded',enforceDesktopSite):enforceDesktopSite();window['addEventListener']('resize',function(){enforceDesktopSite();}),window['MathJax']={'tex':{'inlineMath':[['\x5c(','\x5c)']],'displayMath':[['$$','$$']]}};
+ window.alert("please open in browser for better quality");
+    function enforceDesktopSite() {
+      const viewportMeta = document.querySelector('meta[name="viewport"]');
+      if (viewportMeta) {
+        viewportMeta.setAttribute('content', 'width=1200, initial-scale=1');
+      } else {
+        const meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=1200, initial-scale=1';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+      }
+      document.body.style.minWidth = '1000px';
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (isMobile) {
+        console.log('Desktop mode enforced on mobile device');
+      }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', enforceDesktopSite);
+    } else {
+      enforceDesktopSite();
+    }
+    window.addEventListener('resize', function() {
+      enforceDesktopSite();
+    });
+   window.MathJax = {
+    tex: {
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['$$', '$$']]
+  }};
