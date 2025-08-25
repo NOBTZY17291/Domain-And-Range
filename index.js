@@ -1,4 +1,4 @@
- window.alert("please open in browser for better quality");
+ window.alert("!!PLEASE OPEN ON BROWSER EXAMPLE CHROME OR SAFARI!!");
     function enforceDesktopSite() {
       const viewportMeta = document.querySelector('meta[name="viewport"]');
       if (viewportMeta) {
