@@ -1,1 +1,72 @@
-const _0x59e44f=_0x16fb;(function(_0xa69dbe,_0x23d9f9){const _0x5d93ce=_0x16fb,_0x2c0256=_0xa69dbe();while(!![]){try{const _0x5a956e=-parseInt(_0x5d93ce(0x1d4))/0x1+-parseInt(_0x5d93ce(0x1de))/0x2*(parseInt(_0x5d93ce(0x1d0))/0x3)+parseInt(_0x5d93ce(0x1c9))/0x4*(parseInt(_0x5d93ce(0x1db))/0x5)+parseInt(_0x5d93ce(0x1c8))/0x6+-parseInt(_0x5d93ce(0x1e5))/0x7+parseInt(_0x5d93ce(0x1dc))/0x8+-parseInt(_0x5d93ce(0x1cb))/0x9;if(_0x5a956e===_0x23d9f9)break;else _0x2c0256['push'](_0x2c0256['shift']());}catch(_0x1553dc){_0x2c0256['push'](_0x2c0256['shift']());}}}(_0x59c4,0x7e926));function hi(){const _0x4d5910=_0x16fb;console[_0x4d5910(0x1c3)](_0x4d5910(0x1e4));}hi();function checkBrowser(){const _0x4a36f1=_0x16fb,_0x3e3baf=navigator[_0x4a36f1(0x1c7)],_0x4f0e02=/Chrome/[_0x4a36f1(0x1c5)](_0x3e3baf)&&!/Edg/[_0x4a36f1(0x1c5)](_0x3e3baf),_0xab6d28=/Safari/[_0x4a36f1(0x1c5)](_0x3e3baf)&&!/Chrome/[_0x4a36f1(0x1c5)](_0x3e3baf),_0x549a53=/iPhone|iPad|iPod|Android/i['test'](_0x3e3baf);_0x549a53&&!_0x4f0e02&&!_0xab6d28?confirm(_0x4a36f1(0x1ce))?enforceDesktopSite():copyUrlToClipboard():enforceDesktopSite();}function copyUrlToClipboard(){const _0x4eeaa5=_0x16fb,_0x1e3807=window[_0x4eeaa5(0x1df)]['href'];navigator['clipboard'][_0x4eeaa5(0x1c1)](_0x1e3807)[_0x4eeaa5(0x1d9)](()=>{const _0x858a45=_0x4eeaa5;alert(_0x858a45(0x1c6));})['catch'](_0x2c6a3d=>{const _0x1680b4=_0x4eeaa5;alert(_0x1680b4(0x1e6)+_0x1e3807);});}function enforceDesktopSite(){const _0x3dc2b0=_0x16fb,_0x4ddd1f=document[_0x3dc2b0(0x1d1)](_0x3dc2b0(0x1da));if(_0x4ddd1f)_0x4ddd1f[_0x3dc2b0(0x1d6)](_0x3dc2b0(0x1e3),_0x3dc2b0(0x1cc));else{const _0x2e8dd7=document[_0x3dc2b0(0x1c0)]('meta');_0x2e8dd7[_0x3dc2b0(0x1d5)]=_0x3dc2b0(0x1e2),_0x2e8dd7[_0x3dc2b0(0x1e3)]='width=1200,\x20initial-scale=1',document[_0x3dc2b0(0x1c2)](_0x3dc2b0(0x1dd))[0x0][_0x3dc2b0(0x1cd)](_0x2e8dd7);}document[_0x3dc2b0(0x1d7)][_0x3dc2b0(0x1d3)][_0x3dc2b0(0x1d8)]=_0x3dc2b0(0x1cf);const _0x175448=/iPhone|iPad|iPod|Android/i['test'](navigator[_0x3dc2b0(0x1c7)]);_0x175448&&console['log']('Desktop\x20mode\x20enforced\x20on\x20mobile\x20device');}document[_0x59e44f(0x1ca)]===_0x59e44f(0x1c4)?document['addEventListener'](_0x59e44f(0x1d2),checkBrowser):checkBrowser();function _0x59c4(){const _0x3fc221=['648069KivHMh','querySelector','DOMContentLoaded','style','200314glrlSx','name','setAttribute','body','minWidth','then','meta[name=\x22viewport\x22]','55ZjlaVy','2129336blCXyF','head','2Vulmwa','location','MathJax','resize','viewport','content','Hello\x20World!','6105771CBYmZQ','Please\x20manually\x20copy\x20this\x20URL\x20and\x20open\x20in\x20Chrome\x20or\x20Safari:\x20','createElement','writeText','getElementsByTagName','log','loading','test','Link\x20copied\x20to\x20clipboard!\x20You\x20can\x20now\x20paste\x20it\x20in\x20Chrome\x20or\x20Safari\x20for\x20the\x20best\x20experience.','userAgent','4998468mOwLHn','310704LjXPjV','readyState','1319877guCCar','width=1200,\x20initial-scale=1','appendChild','For\x20the\x20best\x20experience,\x20we\x20recommend\x20opening\x20this\x20page\x20in\x20Chrome\x20or\x20Safari.\x20Click\x20OK\x20to\x20continue\x20in\x20your\x20current\x20browser,\x20or\x20Cancel\x20to\x20copy\x20the\x20link\x20and\x20open\x20in\x20a\x20different\x20browser.','1000px'];_0x59c4=function(){return _0x3fc221;};return _0x59c4();}function _0x16fb(_0x282c3e,_0x56b6ae){const _0x59c432=_0x59c4();return _0x16fb=function(_0x16fbc9,_0xf6e2ce){_0x16fbc9=_0x16fbc9-0x1c0;let _0x5200dc=_0x59c432[_0x16fbc9];return _0x5200dc;},_0x16fb(_0x282c3e,_0x56b6ae);}window['addEventListener'](_0x59e44f(0x1e1),function(){enforceDesktopSite();}),window[_0x59e44f(0x1e0)]={'tex':{'inlineMath':[['\x5c(','\x5c)']],'displayMath':[['$$','$$']]}};
+// Browser Detection Script
+function checkBrowser() {
+  const userAgent = navigator.userAgent;
+  const isChrome = /Chrome/.test(userAgent) && !/Edg/.test(userAgent);
+  const isSafari = /Safari/.test(userAgent) && !/Chrome/.test(userAgent);
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(userAgent);
+  
+  if (isMobile && !isChrome && !isSafari) {
+    if (confirm("For the best experience, we recommend opening this page in Chrome or Safari. Click OK to continue in your current browser, or Cancel to copy the link and open in a different browser.")) {
+      // User clicked OK, continue with desktop enforcement
+      enforceDesktopSite();
+    } else {
+      // User clicked Cancel, offer to copy URL
+      copyUrlToClipboard();
+    }
+  } else {
+    // Already on Chrome/Safari or desktop, enforce desktop mode
+    enforceDesktopSite();
+  }
+}
+
+function copyUrlToClipboard() {
+  const url = window.location.href;
+  navigator.clipboard.writeText(url).then(() => {
+    alert("Link copied to clipboard! You can now paste it in Chrome or Safari for the best experience.");
+  }).catch(err => {
+    alert("Please manually copy this URL and open in Chrome or Safari: " + url);
+  });
+}
+
+// Your Desktop Site Enforcer Script
+function enforceDesktopSite() {
+  // Set viewport to a large fixed width to simulate desktop
+  const viewportMeta = document.querySelector('meta[name="viewport"]');
+  if (viewportMeta) {
+    viewportMeta.setAttribute('content', 'width=1200, initial-scale=1');
+  } else {
+    const meta = document.createElement('meta');
+    meta.name = 'viewport';
+    meta.content = 'width=1200, initial-scale=1';
+    document.getElementsByTagName('head')[0].appendChild(meta);
+  }
+  
+  // Additional desktop-enforcing techniques
+  document.body.style.minWidth = '1000px';
+  
+  // Check if we're on a mobile device
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if (isMobile) {
+    console.log('Desktop mode enforced on mobile device');
+  }
+}
+
+// Run when document is loaded
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', checkBrowser);
+} else {
+  checkBrowser();
+}
+
+// Also run on window resize to maintain desktop view
+window.addEventListener('resize', function() {
+  enforceDesktopSite();
+});
+
+// MathJax Configuration
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['$$', '$$']]
+  }
+};
